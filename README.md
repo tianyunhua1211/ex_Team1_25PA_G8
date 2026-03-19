@@ -13,27 +13,25 @@
 - 上海证券报专题报道
 
 ## 目录结构
-China_stock_analysis/
-│
-├── data/ # 原始和处理后的数据
-│ ├── raw/ # 下载的原始数据
-│ └── processed/ # 清洗后的数据
-│
-├── output/ # 输出结果
-│ ├── tables/ # 统计表格（CSV）
-│ └── figures/ # 可视化图表（PNG）
-│
-├── reports/ # 完整分析报告（Excel）
-│
-├── requirements.txt # 依赖包列表
-├── README.md # 本文档
-└── China_stock_analysis.ipynb # 主分析文件
-
-text
+- China_stock_analysis/
+- │
+- ├── data/ # 原始和处理后的数据
+- │ ├── raw/ # 下载的原始数据
+- │ └── processed/ # 清洗后的数据
+- │
+- ├── output/ # 输出结果
+- │ ├── tables/ # 统计表格（CSV）
+- │ └── figures/ # 可视化图表（PNG）
+- │
+- ├── reports/ # 完整分析报告（Excel）
+- │
+- ├── requirements.txt # 依赖包列表
+- ├── README.md # 本文档
+- └── China_stock_analysis.ipynb # 主分析文件
 
 ## 运行方法
 1. 安装依赖：`pip install -r requirements.txt`
-2. 启动 Jupyter Notebook 或 VSCode
+2. 启动 VSCode
 3. 打开 `China_stock_analysis.ipynb` 并运行所有单元格
 
 ## 注意事项
